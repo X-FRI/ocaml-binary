@@ -1,0 +1,20 @@
+profile = janestreet
+
+leading-nested-match-parens = false
+space-around-variants = true
+space-around-arrays = true
+space-around-lists = true
+space-around-records = true
+break-infix = fit-or-vertical
+exp-grouping = preserve
+let-and = sparse
+type-decl = sparse
+function-indent=2
+cases-exp-indent = 2
+extension-indent=2
+indent-after-in=2
+match-indent=2
+cases-exp-indent=2
+if-then-else=k-r
+break-fun-sig=fit-or-vertical
+margin=80

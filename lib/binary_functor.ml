@@ -6,10 +6,10 @@ end
 
 module Utils (F : Functor) : sig
   module Infix : sig
-    val (<$>) : ('a -> 'b) -> 'a F.t -> 'b F.t
+    val ( <$> ) : ('a -> 'b) -> 'a F.t -> 'b F.t
   end
 end = struct
   module Infix = struct
-    let (<$>) = F.map
+    let ( <$> ) = F.map
   end
 end
